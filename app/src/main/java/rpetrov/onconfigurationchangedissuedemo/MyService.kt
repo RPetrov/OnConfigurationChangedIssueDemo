@@ -10,7 +10,7 @@ class MyService : Service() {
 
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
-        Log.e("MyService", "onConfigurationChanged newConfig = $newConfig")
+        Log.i("MyService", "onConfigurationChanged newConfig = $newConfig")
     }
 
     override fun onBind(intent: Intent): IBinder? = null
