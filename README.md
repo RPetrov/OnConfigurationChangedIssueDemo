@@ -5,7 +5,7 @@ onConfigurationChanged in Service doesn't call if there 2 conditions on Android 
 2. There is running AccessibilityService
 ![desc](onConfChanged.png)
 
-Bug in issuetracker: (https://issuetracker.google.com/issues/336161242)[https://issuetracker.google.com/issues/336161242]
+Bug in issuetracker: https://issuetracker.google.com/issues/336161242
 
 ## How to reproduce
 1. Create empty project
